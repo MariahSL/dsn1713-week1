@@ -80,3 +80,10 @@ header nav ul a:focus {
   color: #F54F95;
 }
 
+#hero {
+  background-color: #F54F95;
+  height: 60wh;
+  background-image: url(../images/hero-donuts.jpg);
+  background-position: center;
+}
+
