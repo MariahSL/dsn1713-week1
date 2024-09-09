@@ -64,7 +64,19 @@ header nav ul {
   list-style: none;
 }
 
+header nav ul a {
+  display: inline-block;
+  background-color: #F54F95;
+  color: #fff;
+  padding: .75em 1.25em;
+  text-decoration: none;
+  margin-left: 1em;
+  border: 1px solid #F54F95;
+}
 
-
-
+header nav ul a:hover,
+header nav ul a:focus {
+  background-color: #fff;
+  color: #F54F95;
+}
 
