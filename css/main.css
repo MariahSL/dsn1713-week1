@@ -43,7 +43,19 @@ h3 {
   margin: 0;
 }
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
 
+#logo {
+  max-width: 160px;
+}
+
+header .wrapper {
+  display: flex;
+}
 
 
 
