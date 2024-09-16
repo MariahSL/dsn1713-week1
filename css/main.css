@@ -109,3 +109,15 @@ section {
 .product-cart:nth-child(1) {
   background-color: #F54F95;
 }
+
+.product-cart:nth-child(2) {
+  background-color: #c78e62;
+}
+
+.product-cart:nth-child(3) {
+  background-color: #f1ad2c;
+}
+
+.product-cart:nth-child(4) {
+  background-color: #2cd39c;
+}
