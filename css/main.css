@@ -104,6 +104,9 @@ section {
 
 .product-cart {
   border-radius: 14px;
+  padding: 2em 1.25em;
+  text-align: center;
+  color: white;
 }
 
 .product-cart:nth-child(1) {
