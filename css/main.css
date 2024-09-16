@@ -108,7 +108,8 @@ section {
   text-align: center;
   color: white;
 
-  /* flex */
+  display: flex;
+  flex-direction: column;
 }
 
 .product-cart:nth-child(1) {
@@ -153,4 +154,25 @@ section {
 .product-cart button:focus {
   background-color: #F54F95;
   color: #fff;
+}
+
+footer {
+  background-color: #F54F95;
+  padding: 5.em 0;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 600px){
+
+  .product-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media (min-width: 1000px){
+  .product-container {
+    grid-template-columns: repeat(4 1fr);
+  }
 }
