@@ -107,6 +107,8 @@ section {
   padding: 2em 1.25em;
   text-align: center;
   color: white;
+
+  /* flex */
 }
 
 .product-cart:nth-child(1) {
@@ -123,4 +125,32 @@ section {
 
 .product-cart:nth-child(4) {
   background-color: #2cd39c;
+}
+
+.product-cart p {
+  margin: .5em 0;
+}
+
+.product-cart p.price {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.product-cart button {
+  display: inline-block;
+  padding: .5em 1.5em;
+  border: none;
+  background-color: #fff;
+  color: #F54F95;
+  font-size: 1.125rem;
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+.product-cart button:hover,
+.product-cart button:focus {
+  background-color: #F54F95;
+  color: #fff;
 }
